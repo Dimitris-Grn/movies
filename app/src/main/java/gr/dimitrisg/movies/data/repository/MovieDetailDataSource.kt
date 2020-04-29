@@ -7,7 +7,7 @@ import gr.dimitrisg.movies.data.model.MovieDetails
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 
-class DataSource (
+class MovieDetailDataSource (
     private val restApi: RestApi,
     private val compositeDisposable: CompositeDisposable
 ) {

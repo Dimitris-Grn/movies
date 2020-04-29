@@ -6,16 +6,16 @@ import gr.dimitrisg.movies.data.model.MovieDetails
 import io.reactivex.disposables.CompositeDisposable
 
 class MovieRepository(private val restApi: RestApi) {
-    lateinit var dataSource: DataSource
+    lateinit var movieDetailDataSource: MovieDetailDataSource
 
     fun fetchSingleMovieDetails(compositeDisposable: CompositeDisposable, movieId: Int): LiveData<MovieDetails> {
-        dataSource = DataSource(restApi, compositeDisposable)
-        dataSource.fetchMovieDetails(movieId)
+        movieDetailDataSource = MovieDetailDataSource(restApi, compositeDisposable)
+        movieDetailDataSource.fetchMovieDetails(movieId)
 
-        return dataSource.movieDetailsResponse
+        return movieDetailDataSource.movieDetailsResponse
     }
 
     fun getMovieDetailsNetworkState(): LiveData<NetworkState> {
-        return dataSource.networkState
+        return movieDetailDataSource.networkState
     }
 }
