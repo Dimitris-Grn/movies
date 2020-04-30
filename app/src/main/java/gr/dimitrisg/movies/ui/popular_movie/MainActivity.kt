@@ -1,6 +1,5 @@
 package gr.dimitrisg.movies.ui.popular_movie
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -12,9 +11,7 @@ import gr.dimitrisg.movies.R
 import gr.dimitrisg.movies.data.api.RestApi
 import gr.dimitrisg.movies.data.api.RestClient
 import gr.dimitrisg.movies.data.repository.NetworkState
-import gr.dimitrisg.movies.data.viemwodel.MainActivityViewModel
-import gr.dimitrisg.movies.data.viemwodel.SingleMovieViewModel
-import gr.dimitrisg.movies.ui.single_movie_details.SingleMovie
+import gr.dimitrisg.movies.viemwodel.MainActivityViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

@@ -1,7 +1,8 @@
-package gr.dimitrisg.movies.data.model.popularmovie
+package gr.dimitrisg.movies.data.model
 
 
 import com.google.gson.annotations.SerializedName
+import gr.dimitrisg.movies.data.model.Movie
 
 data class MovieResponse(
     val page: Int,

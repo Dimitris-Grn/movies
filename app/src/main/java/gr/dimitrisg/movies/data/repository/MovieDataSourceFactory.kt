@@ -3,7 +3,7 @@ package gr.dimitrisg.movies.data.repository
 import androidx.lifecycle.MutableLiveData
 import androidx.paging.DataSource
 import gr.dimitrisg.movies.data.api.RestApi
-import gr.dimitrisg.movies.data.model.popularmovie.Movie
+import gr.dimitrisg.movies.data.model.Movie
 import io.reactivex.disposables.CompositeDisposable
 
 class MovieDataSourceFactory (

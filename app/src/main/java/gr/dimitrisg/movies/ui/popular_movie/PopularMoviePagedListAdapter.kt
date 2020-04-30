@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import gr.dimitrisg.movies.R
 import gr.dimitrisg.movies.data.api.POSTER_BASE_URL
-import gr.dimitrisg.movies.data.model.popularmovie.Movie
+import gr.dimitrisg.movies.data.model.Movie
 import gr.dimitrisg.movies.data.repository.NetworkState
 import gr.dimitrisg.movies.ui.single_movie_details.SingleMovie
 import kotlinx.android.synthetic.main.movie_list_item.view.*

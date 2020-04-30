@@ -1,4 +1,4 @@
-package gr.dimitrisg.movies.data.viemwodel
+package gr.dimitrisg.movies.viemwodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel

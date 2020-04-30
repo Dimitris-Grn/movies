@@ -6,7 +6,7 @@ import androidx.paging.LivePagedListBuilder
 import androidx.paging.PagedList
 import gr.dimitrisg.movies.data.api.POST_PER_PAGE
 import gr.dimitrisg.movies.data.api.RestApi
-import gr.dimitrisg.movies.data.model.popularmovie.Movie
+import gr.dimitrisg.movies.data.model.Movie
 import gr.dimitrisg.movies.data.repository.MovieDataSource
 import gr.dimitrisg.movies.data.repository.MovieDataSourceFactory
 import gr.dimitrisg.movies.data.repository.NetworkState

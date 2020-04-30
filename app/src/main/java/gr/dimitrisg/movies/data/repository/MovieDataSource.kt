@@ -1,11 +1,10 @@
 package gr.dimitrisg.movies.data.repository
 
-import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.paging.PageKeyedDataSource
 import gr.dimitrisg.movies.data.api.FIRST_PAGE
 import gr.dimitrisg.movies.data.api.RestApi
-import gr.dimitrisg.movies.data.model.popularmovie.Movie
+import gr.dimitrisg.movies.data.model.Movie
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 

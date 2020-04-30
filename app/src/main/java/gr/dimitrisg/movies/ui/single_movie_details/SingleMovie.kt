@@ -14,7 +14,7 @@ import gr.dimitrisg.movies.data.api.RestClient
 import gr.dimitrisg.movies.data.model.MovieDetails
 import gr.dimitrisg.movies.data.repository.MovieRepository
 import gr.dimitrisg.movies.data.repository.NetworkState
-import gr.dimitrisg.movies.data.viemwodel.SingleMovieViewModel
+import gr.dimitrisg.movies.viemwodel.SingleMovieViewModel
 import kotlinx.android.synthetic.main.activity_single_movie.*
 import java.text.NumberFormat
 import java.util.*
