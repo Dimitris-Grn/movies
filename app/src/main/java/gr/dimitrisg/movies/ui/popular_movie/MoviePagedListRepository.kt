@@ -34,6 +34,5 @@ class MoviePagedListRepository (private val apiService: RestApi) {
         return Transformations.switchMap(
             moviesDataSourceFactory.moviesLiveDataSource, MovieDataSource::networkState
         )
-
     }
 }
