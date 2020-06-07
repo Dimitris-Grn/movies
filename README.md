@@ -2,10 +2,11 @@
 
 This application makes calls in a REST api to fetch movies. Is implemented with Kotlin in Android Studio.
 
-This applicaiton use the following:
+Τhe application uses the following:
 
 - Architecture design pattern MVVM
-- AndroidRX for asynchronus programming
+- AndroidRX for asynchronous programming
 - Retrofit for network calls
 - Glide for downloading images
-- Paging a android componet for loading data in pages, and present it in a RecyclerView. 
+- Paging an android component for loading data in pages which are presented in a RecyclerView
+
