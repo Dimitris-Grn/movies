@@ -1,5 +1,4 @@
 # Movies
-Applicaton which show a list of movies and describe each one.
 
 This application makes calls in a REST api to fetch movies. Is implemented with Kotlin in Android Studio.
 
